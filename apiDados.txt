@@ -6,12 +6,9 @@ Parametros:
     units=metric
     lang=pt_br
 
-
 API dados Meteriologicos
 exemplo de url para a consulta:
 https://api.openweathermap.org/data/2.5/weather?appid=9e2aa2e6c8bf8537aa1e1414432a4007&q=catanduva,br&units=metric&lang=pt_br
-
-
 
 
 API de CEP

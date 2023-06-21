@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
+<body>   
     <div id="link">
         <form action="#">
             <select name="cidades" id="cidades" onchange="mudarCidade(this.value)">
@@ -31,8 +30,7 @@
 
         if (geoLoc !=null){
             geoLoc.getCurrentPosition(obterPosicao, obterErro)
-        }
-        
+        }        
         function obterPosicao(posicao){
             lat = posicao.coords.latitude;
             lon = posicao.coords.longitude;
@@ -70,7 +68,7 @@
                                 <h3>${resultado.name} - ${resultado.sys.country}</h3>
                                 <b>Coordenadas</b><br>
                                 <b>Longitude:</b>${resultado.coord.lon} | <b>Latitude:</b>${resultado.coord.lat}
-                            `;
+                            `
 
             var lista = document.createElement('ul')                   
             var itemLista= `

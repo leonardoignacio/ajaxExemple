@@ -5,6 +5,5 @@ Parametros:
     q=sao+paulo,br (Ex.:Cidade, sigla do pais)
     units=metric
     lang=pt_br
-
 Exemplo:
 https://api.openweathermap.org/data/2.5/weather?appid=9e2aa2e6c8bf8537aa1e1414432a4007&q=sao+paulo,br&units=metric&lang=pt_br
